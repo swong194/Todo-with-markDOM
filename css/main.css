@@ -24,6 +24,7 @@
   margin-bottom: 10px;
   font-size: 50px;
   color: white;
+  transition: opacity .8s;
 }
 
 .cover-container:hover i{
