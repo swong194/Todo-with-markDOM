@@ -2,20 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>markDOM playground</title>
+    <title>todoApp with markDOM</title>
+    <link rel="stylesheet" href="../css/fonts/font-awesome.min.css">
+    <link rel='stylesheet' href='../css/reset.css'>
     <link rel="stylesheet" href="../css/main.css">
   </head>
   <body>
 
+  <div class='body-container'>
     <div class="cover-container">
       <div class='cover-inner-container'>
+        <p>GOT THINGS TO DO?... THEN
+        STOP MESSING AROUND AND DO SOME WORK</p>
       </div>
+      <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
     </div>
 
+    <div class='todoapp-container'>
+      <div class="todoapp-inner-container">
+        <form class="todo-form">
+          <input class='todo-input' type="text" placeholder='Something Productive'>
+          <button class='todo-button' type="button" name="button">Add task</button>
+        </form>
+        <div class="todo-list">
+          <h1>My Chores</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script type="text/javascript" src='../lib/markDOM.js'>
+    </script>
+    <script type="text/javascript" src='../lib/todo.js'>
+    </script>
   </body>
 
-  <script type="text/javascript" src='../lib/markDOM.js'>
-  </script>
-  <script type="text/javascript" src='../lib/todo.js'>
-  </script>
+
 </html>
