@@ -71,3 +71,5 @@ parent(){
 }
 
 ```
+
+markDOM can also perform ajax requests which in turn return Javascript promises. 
