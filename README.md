@@ -2,6 +2,8 @@
 
 ![todo-demo](./screenshots/todoapp-demo.gif)
 
+<a href='http://sunnygwong.com/markDOM/'>Live Demo</a>
+
 markDOM is a Javascript library used to simplify client scripting of HTML. A todo-app was built using markDOM to highlight it's ability in manipulating the DOM.
 
 markDOM has many features to manipulate HTML. Methods include adding/removing event listeners,
