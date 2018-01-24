@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/swong194/markDOM/issues"
   },
-  "homepage": "https://github.com/swong194/markDOM#readme",
-  "dependencies": {
-    "es6-promise": "^4.2.2"
-  }
+  "homepage": "https://github.com/swong194/markDOM#readme"
 }
