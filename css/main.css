@@ -1,3 +1,8 @@
+a{
+  text-decoration: underline;
+  color: inherit;
+}
+
 .body-container{
   width: 100vw;
   height: 100vh;
@@ -15,6 +20,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  z-index: 1;
 }
 
 .cover-container i {
@@ -74,6 +80,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -193,4 +200,12 @@ input{
 
 i {
   cursor: pointer;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  color: white;
+  margin-left: 15px;
 }
